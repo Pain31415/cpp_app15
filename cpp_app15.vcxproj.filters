@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{bd0b5619-3b5d-4c1d-a121-d08e87f58ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WashingMachine">
+      <UniqueIdentifier>{4703d0d0-1871-443c-b733-054d1f35791e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="WashingMachine.cpp">
+      <Filter>WashingMachine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WashingMachine.h">
+      <Filter>WashingMachine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
